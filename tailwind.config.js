@@ -2,7 +2,10 @@
 module.exports = {
   content: ["./dist/index.html"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "my-image": "url(./images/handball2.jpg)" ,
+      },
   },
   plugins: [],
 }
